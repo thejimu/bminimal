@@ -1,0 +1,27 @@
+{
+    "name": "silverstripe-themes/bminimal",
+    "description": "The Bdigital Minimal theme",
+    "type": "silverstripe-theme",
+    "keywords": ["silverstripe", "theme"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "James Bell (Bdigital)",
+            "homepage": "https://bdigital.asia"
+        }
+    ],
+    "require": {
+        "composer/installers": "*",
+        "silverstripe/framework": ">=4.0"
+    },
+	"extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "expose": [
+            "css",
+            "img",
+            "js"
+        ]
+	}
+}

@@ -12,7 +12,9 @@
     ],
     "require": {
         "composer/installers": "*",
-        "silverstripe/framework": ">=4.0"
+        "silverstripe/framework": ">=4.0",
+        "silverstripe/blog": "*",
+        "bdigital-dev/agency": "*"
     },
 	"extra": {
         "branch-alias": {
